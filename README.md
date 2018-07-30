@@ -4,6 +4,7 @@ The function takes input of data frame with a mininum of one column with the nam
 
 The function will return this data frame with appended columns of whether the gene is targetable, the name of the drug that can target it and the id of that drug.
 
-Target data is taken from the DGI database. Source: http://dgidb.org/downloads 
+Must have Target_List.tsv pulled from GitHub. Target data is taken from the DGI database. Source: http://dgidb.org/downloads 
 
 source targetApply.R to access the function
+
